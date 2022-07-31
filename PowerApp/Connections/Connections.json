@@ -1,0 +1,27 @@
+{
+  "f0bf6455-f464-487b-8d0f-5cede068d1ff": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/JoseLuisSotoApp": {
+        "dataSources": {
+          "Productos": {
+            "tableName": "c14aaea6-a4fb-4239-9c77-29979744ec05"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Productos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f0bf6455-f464-487b-8d0f-5cede068d1ff"
+  }
+}
