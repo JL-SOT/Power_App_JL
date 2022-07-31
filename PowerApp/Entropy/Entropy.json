@@ -37,6 +37,7 @@
     "Form1": 4,
     "ID Product_DataCard1": 11,
     "Imagen del Producto_DataCard1": 51,
+    "Label2": 60,
     "Pais de Fabricacion_DataCard1": 31,
     "Precio_DataCard1": 36,
     "Screen1": 3,
@@ -55,7 +56,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/31/2022 00:57:59",
+  "HeaderLastSavedDateTimeUTC": "07/31/2022 01:23:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "f0bf6455-f464-487b-8d0f-5cede068d1ff": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/23df3a9fae7540619784f707977680bb\""
@@ -115,6 +116,7 @@
     "Form1": 0,
     "ID Product_DataCard1": 1,
     "Imagen del Producto_DataCard1": 46,
+    "Label2": 0,
     "Pais de Fabricacion_DataCard1": 26,
     "Precio_DataCard1": 31,
     "Screen1": 0,

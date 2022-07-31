@@ -2,9 +2,8 @@ Screen1 As screen:
 
     Form1 As form:
         DataSource: =Productos
-        Height: =640
-        Width: =1288
-        X: =36
+        Height: =664
+        Width: =1366
         Y: =101
         ZIndex: =1
 
@@ -18,7 +17,7 @@ Screen1 As screen:
             Height: =50
             Required: =true
             Update: =Value(DataCardValue2.Text)
-            Width: =429
+            Width: =455
             X: =0
             Y: =0
             ZIndex: =2
@@ -86,7 +85,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@Productos], DataSourceInfo.MaxLength, "Caracteristicas")
             Required: =true
             Update: =DataCardValue3.Text
-            Width: =429
+            Width: =455
             X: =2
             Y: =0
             ZIndex: =2
@@ -154,7 +153,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@Productos], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =429
+            Width: =455
             X: =1
             Y: =0
             ZIndex: =2
@@ -221,7 +220,7 @@ Screen1 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue4.SelectedDate
-            Width: =429
+            Width: =455
             X: =0
             Y: =1
             ZIndex: =2
@@ -287,7 +286,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@Productos], DataSourceInfo.MaxLength, "CorreodelFabricante")
             Required: =true
             Update: =DataCardValue5.Text
-            Width: =429
+            Width: =455
             X: =1
             Y: =1
             ZIndex: =2
@@ -355,7 +354,7 @@ Screen1 As screen:
             MaxLength: =DataSourceInfo([@Productos], DataSourceInfo.MaxLength, "PaisdeFabricacion")
             Required: =true
             Update: =DataCardValue6.Text
-            Width: =429
+            Width: =455
             X: =2
             Y: =1
             ZIndex: =2
@@ -422,7 +421,7 @@ Screen1 As screen:
             Height: =50
             Required: =true
             Update: =Value(DataCardValue7.Text)
-            Width: =429
+            Width: =455
             X: =0
             Y: =2
             ZIndex: =2
@@ -489,7 +488,7 @@ Screen1 As screen:
             Height: =50
             Required: =true
             Update: =Value(DataCardValue8.Text)
-            Width: =429
+            Width: =455
             X: =1
             Y: =2
             ZIndex: =2
@@ -556,7 +555,7 @@ Screen1 As screen:
             Height: =50
             Required: =true
             Update: =Value(DataCardValue9.Text)
-            Width: =429
+            Width: =455
             X: =2
             Y: =2
             ZIndex: =2
@@ -622,7 +621,7 @@ Screen1 As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =347
             Required: =true
-            Width: =429
+            Width: =455
             X: =0
             Y: =3
             ZIndex: =2
@@ -645,4 +644,15 @@ Screen1 As screen:
                 X: =30
                 Y: =DataCardKey10.Y + DataCardKey10.Height + 5
                 ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(102, 113, 166, 1)
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =101
+        Size: =40
+        Text: ="Registro de Productos"
+        Width: =1366
+        ZIndex: =2
 
