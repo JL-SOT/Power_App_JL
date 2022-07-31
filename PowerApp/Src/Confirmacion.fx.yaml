@@ -39,10 +39,3 @@
         Width: =1366
         ZIndex: =4
 
-    Icon1 As icon.ChevronLeft:
-        Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(Screen1)
-        X: =49
-        Y: =18
-        ZIndex: =5
-

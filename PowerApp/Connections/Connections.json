@@ -1,5 +1,5 @@
 {
-  "f0bf6455-f464-487b-8d0f-5cede068d1ff": {
+  "f6906a38-2690-4948-91ef-f575dfe38bc8": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -11,6 +11,9 @@
     "datasets": {
       "https://ccolabs.sharepoint.com/sites/JoseLuisSotoApp": {
         "dataSources": {
+          "Ordenes de Producto": {
+            "tableName": "d57306a9-3d12-4be2-8690-e74b248bcecf"
+          },
           "Productos": {
             "tableName": "c14aaea6-a4fb-4239-9c77-29979744ec05"
           }
@@ -18,10 +21,11 @@
       }
     },
     "dataSources": [
-      "Productos"
+      "Productos",
+      "Ordenes de Producto"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "f0bf6455-f464-487b-8d0f-5cede068d1ff"
+    "id": "f6906a38-2690-4948-91ef-f575dfe38bc8"
   }
 }
