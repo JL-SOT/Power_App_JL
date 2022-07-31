@@ -1,0 +1,48 @@
+"Confirmacion As screen.'tabletLayout_Success_ver3.0'":
+
+    iconCircle1 As circle.Circle:
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =279
+        ZIndex: =1
+
+    iconCheck1 As icon.Check:
+        Height: =iconCircle1.Height
+        Icon: =Icon.Check
+        PaddingBottom: =Self.PaddingTop
+        PaddingLeft: =Self.PaddingTop
+        PaddingRight: =Self.PaddingTop
+        PaddingTop: =24
+        Width: =iconCircle1.Width
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =279
+        ZIndex: =2
+
+    LblSuccessMsg1 As label:
+        Align: =Align.Center
+        AutoHeight: =true
+        Height: =iconCircle1.Height
+        Size: =20
+        Text: ="This was successfully completed"
+        Width: =Parent.Width * 0.75
+        X: =171
+        Y: =437
+        ZIndex: =3
+
+    Label2_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(102, 113, 166, 1)
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =101
+        Size: =40
+        Text: ="Registro de Productos"
+        Width: =1366
+        ZIndex: =4
+
+    Icon1 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(Screen1)
+        X: =49
+        Y: =18
+        ZIndex: =5
+

@@ -43,19 +43,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.Title_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.'ID Product_DataCard1'.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.Title_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.'ID Product_DataCard1'.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.Title_DataCard1.DataCardValue1"
+                "type": "Screen1.productos.'ID Product_DataCard1'.DataCardValue2"
               }
             }
           ],
@@ -73,19 +73,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.'ID Product_DataCard1'.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.Caracteristicas_DataCard1.DataCardValue3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.'ID Product_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.Caracteristicas_DataCard1.DataCardValue3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.'ID Product_DataCard1'.DataCardValue2"
+                "type": "Screen1.productos.Caracteristicas_DataCard1.DataCardValue3"
               }
             }
           ],
@@ -103,19 +103,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.Caracteristicas_DataCard1.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.Title_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.Caracteristicas_DataCard1.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.Title_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.Caracteristicas_DataCard1.DataCardValue3"
+                "type": "Screen1.productos.Title_DataCard1.DataCardValue1"
               }
             }
           ],
@@ -133,19 +133,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.'Fecha de Lanzamiento_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.'Fecha de Lanzamiento_DataCard1'.DataCardValue4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.'Fecha de Lanzamiento_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.'Fecha de Lanzamiento_DataCard1'.DataCardValue4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.'Fecha de Lanzamiento_DataCard1'.DataCardValue4"
+                "type": "Screen1.productos.'Fecha de Lanzamiento_DataCard1'.DataCardValue4"
               }
             }
           ],
@@ -163,19 +163,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.'Correo del Fabricante_DataCard1'.DataCardValue5.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.'Correo del Fabricante_DataCard1'.DataCardValue5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.'Correo del Fabricante_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.'Correo del Fabricante_DataCard1'.DataCardValue5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.'Correo del Fabricante_DataCard1'.DataCardValue5"
+                "type": "Screen1.productos.'Correo del Fabricante_DataCard1'.DataCardValue5"
               }
             }
           ],
@@ -193,19 +193,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.'Pais de Fabricacion_DataCard1'.DataCardValue6.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.'Pais de Fabricacion_DataCard1'.DataCardValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.'Pais de Fabricacion_DataCard1'.DataCardValue6.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.'Pais de Fabricacion_DataCard1'.DataCardValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.'Pais de Fabricacion_DataCard1'.DataCardValue6"
+                "type": "Screen1.productos.'Pais de Fabricacion_DataCard1'.DataCardValue6"
               }
             }
           ],
@@ -223,19 +223,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.Precio_DataCard1.DataCardValue7.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.Precio_DataCard1.DataCardValue7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.Precio_DataCard1.DataCardValue7.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.Precio_DataCard1.DataCardValue7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.Precio_DataCard1.DataCardValue7"
+                "type": "Screen1.productos.Precio_DataCard1.DataCardValue7"
               }
             }
           ],
@@ -253,19 +253,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.'Unidades Disponibles_DataCard1'.DataCardValue8.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.'Unidades Disponibles_DataCard1'.DataCardValue8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.'Unidades Disponibles_DataCard1'.DataCardValue8.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.'Unidades Disponibles_DataCard1'.DataCardValue8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.'Unidades Disponibles_DataCard1'.DataCardValue8"
+                "type": "Screen1.productos.'Unidades Disponibles_DataCard1'.DataCardValue8"
               }
             }
           ],
@@ -283,19 +283,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form1.'Unidades Vendidas_DataCard1'.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.productos.'Unidades Vendidas_DataCard1'.DataCardValue9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form1.'Unidades Vendidas_DataCard1'.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.productos.'Unidades Vendidas_DataCard1'.DataCardValue9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form1.'Unidades Vendidas_DataCard1'.DataCardValue9"
+                "type": "Screen1.productos.'Unidades Vendidas_DataCard1'.DataCardValue9"
               }
             }
           ],
@@ -307,6 +307,66 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Confirmacion.Icon1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Confirmacion.Icon1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Confirmacion",
+                "type": "Confirmacion.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Confirmacion.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Confirmacion.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Confirmacion",
+                "type": "Confirmacion.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -346,6 +406,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             }
           ],

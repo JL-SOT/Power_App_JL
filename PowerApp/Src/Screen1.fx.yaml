@@ -1,7 +1,8 @@
 Screen1 As screen:
 
-    Form1 As form:
+    productos As form:
         DataSource: =Productos
+        DefaultMode: =FormMode.New
         Height: =664
         Width: =1366
         Y: =101
@@ -161,7 +162,7 @@ Screen1 As screen:
             DataCardKey1 As label:
                 AutoHeight: =true
                 Height: =34
-                Text: =Parent.DisplayName
+                Text: ="Nombre del Producto"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -531,7 +532,7 @@ Screen1 As screen:
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
-                X: =30
+                X: =27
                 Y: =DataCardValue8.Y + DataCardValue8.Height
                 ZIndex: =3
 
@@ -552,7 +553,7 @@ Screen1 As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Productos],DataSourceInfo.DisplayName,"UnidadesVendidas")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =88
             Required: =true
             Update: =Value(DataCardValue9.Text)
             Width: =455
@@ -612,39 +613,6 @@ Screen1 As screen:
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        "'Imagen del Producto_DataCard1' As typedDataCard.largeImageViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ImagendelProducto"
-            Default: =ThisItem.'Imagen del Producto'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Productos],DataSourceInfo.DisplayName,"ImagendelProducto")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =347
-            Required: =true
-            Width: =455
-            X: =0
-            Y: =3
-            ZIndex: =2
-
-            DataCardKey10 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue10 As image:
-                DisplayMode: =Parent.DisplayMode
-                Height: =200
-                Image: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
-                ZIndex: =2
-
     Label2 As label:
         Align: =Align.Center
         BorderColor: =RGBA(102, 113, 166, 1)
@@ -655,4 +623,23 @@ Screen1 As screen:
         Text: ="Registro de Productos"
         Width: =1366
         ZIndex: =2
+
+    Button1 As button:
+        OnSelect: =SubmitForm(productos);Navigate(Confirmacion)
+        Text: ="Guardar"
+        X: =717
+        Y: =708
+        ZIndex: =3
+
+    Button2 As button:
+        Text: ="Borrar"
+        X: =947
+        Y: =708
+        ZIndex: =4
+
+    Button3 As button:
+        Text: ="Cerrar"
+        X: =1178
+        Y: =708
+        ZIndex: =5
 
