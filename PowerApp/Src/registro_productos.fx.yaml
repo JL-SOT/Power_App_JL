@@ -28,7 +28,7 @@ registro_productos As screen:
             DataCardKey12 As label:
                 AutoHeight: =true
                 Height: =34
-                Text: =Parent.DisplayName
+                Text: ="ID"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -709,7 +709,7 @@ registro_productos As screen:
         ZIndex: =5
 
     Button5 As button:
-        OnSelect: =SubmitForm(reg_productos)
+        OnSelect: =SubmitForm(reg_productos);Navigate(Confirmacion)
         Size: =18
         Text: ="Añadir"
         X: =952

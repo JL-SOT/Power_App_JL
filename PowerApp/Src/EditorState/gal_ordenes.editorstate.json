@@ -171,7 +171,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button15_1",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -860,7 +860,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "data_ordenes",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1180,7 +1180,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label2_7",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

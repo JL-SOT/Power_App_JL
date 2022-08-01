@@ -39,15 +39,25 @@
         Width: =1366
         ZIndex: =4
 
-    Button10 As button:
-        Text: ="Button"
-        X: =879
-        Y: =624
-        ZIndex: =5
+    Button12_1 As button:
+        Height: =72
+        OnSelect: =ResetForm(reg_productos);NewForm(reg_productos);Navigate(registro_productos)
+        Size: =20
+        Text: ="Nuevo Producto"
+        Width: =304
+        X: =863
+        Y: =592
+        ZIndex: =7
 
-    Button11 As button:
-        Text: ="Button"
-        X: =330
-        Y: =624
-        ZIndex: =6
+    Button13_1 As button:
+        Height: =72
+        OnSelect: =Navigate(gal_productos)
+        Size: =20
+        Text: |-
+            ="Volver al Registro
+            "
+        Width: =304
+        X: =230
+        Y: =592
+        ZIndex: =8
 
