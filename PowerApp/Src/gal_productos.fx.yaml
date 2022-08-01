@@ -44,7 +44,7 @@ gal_productos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =1
+            Order: =2
             Text: =ThisItem.Title
             Width: =100
             X: =0
@@ -58,7 +58,7 @@ gal_productos As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =2
+            Order: =1
             Text: =ThisItem.'Nombre del Producto'
             Width: =100
             X: =0
