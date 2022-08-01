@@ -1,0 +1,144 @@
+gal_ordenes As screen:
+
+    Label2_7 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(102, 113, 166, 1)
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =125
+        Size: =40
+        Text: |-
+            ="Ordenes
+            "
+        Width: =1366
+        ZIndex: =1
+
+    data_ordenes As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =510
+        Items: ='Ordenes de Productos'
+        Width: =1366
+        X: =0
+        Y: =125
+        ZIndex: =2
+
+        Producto_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Producto"
+            FieldName: ="Producto"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Producto.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        "'No Orden_Column1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="No Orden"
+            FieldName: ="NoOrden"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'No Orden'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        "'Usuario Solicitante_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Usuario Solicitante"
+            FieldName: ="UsuarioSolicitante"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'Usuario Solicitante'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+        "'Usuario Aprobador_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Usuario Aprobador"
+            FieldName: ="UsuarioAprobador"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.'Usuario Aprobador'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        "'Cantidad Solicitada_Column1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Cantidad Solicitada"
+            FieldName: ="CantidadSolicitada"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.'Cantidad Solicitada'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        "'Cantidad Aprobada_Column1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Cantidad Aprobada"
+            FieldName: ="CantidadAprobada"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.'Cantidad Aprobada'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        Anexo_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Anexo"
+            FieldName: ="Anexo"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.Anexo
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+    Button8 As button:
+        Height: =54
+        OnSelect: =ResetForm(reg_ordenes);NewForm(reg_ordenes); Navigate(registro_ordenes)
+        Text: |-
+            ="Realizar una Orden
+            "
+        Width: =302
+        X: =983
+        Y: =687
+        ZIndex: =3
+
+    Button15_1 As button:
+        Height: =54
+        OnSelect: =Navigate(navegacion)
+        Text: ="Atras"
+        Width: =302
+        X: =74
+        Y: =687
+        ZIndex: =4
+

@@ -1,0 +1,37 @@
+navegacion As screen:
+
+    Label2_3 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(102, 113, 166, 1)
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =127
+        Size: =40
+        Text: |-
+            ="Navegacion
+            "
+        Width: =1366
+        ZIndex: =1
+
+    Button6 As button:
+        Height: =74
+        OnSelect: =Navigate(gal_productos)
+        Size: =25
+        Text: |-
+            ="Productos
+            "
+        Width: =402
+        X: =156
+        Y: =375
+        ZIndex: =2
+
+    Button7 As button:
+        Height: =74
+        OnSelect: =Navigate(gal_ordenes)
+        Size: =25
+        Text: ="Ordenes"
+        Width: =402
+        X: =836
+        Y: =375
+        ZIndex: =3
+

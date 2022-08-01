@@ -1,0 +1,174 @@
+gal_productos As screen:
+
+    Label2_4 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(102, 113, 166, 1)
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =127
+        Size: =40
+        Text: |-
+            ="Productos
+            "
+        Width: =1366
+        ZIndex: =2
+
+    Button14 As button:
+        Height: =54
+        OnSelect: =ResetForm(reg_productos);NewForm(reg_productos);Navigate(registro_productos)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Text: ="Agregar Producto"
+        Width: =302
+        X: =1040
+        Y: =689
+        ZIndex: =4
+
+    DataTable2 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =556
+        Items: ='Registro de Productos'
+        Width: =1364
+        X: =2
+        Y: =126
+        ZIndex: =6
+
+        Title_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="ID"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Title
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        "'Nombre del Producto_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Nombre del Producto"
+            FieldName: ="NombredelProducto"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.'Nombre del Producto'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+        "'Fecha de Lanzamiento_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Fecha de Lanzamiento"
+            FieldName: ="FechadeLanzamiento"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'Fecha de Lanzamiento'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
+        "'Correo del Fabricante_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Correo del Fabricante"
+            FieldName: ="CorreodelFabricante"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'Correo del Fabricante'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =10
+
+        "'Pais de Fabricacion_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Pais de Fabricacion"
+            FieldName: ="PaisdeFabricacion"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.'Pais de Fabricacion'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =11
+
+        Precio_Column1 As dataTableColumn.numberColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Precio"
+            FieldName: ="Precio"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.Precio
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =12
+
+        "'Unidades Disponibles_Column1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Unidades Disponibles"
+            FieldName: ="UnidadesDisponibles"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.'Unidades Disponibles'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =13
+
+        "'Unidades Vendidas_Column1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Unidades Vendidas"
+            FieldName: ="UnidadesVendidas"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.'Unidades Vendidas'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =14
+
+        Caracteristicas_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Caracteristicas"
+            FieldName: ="Caracter"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.Caracteristicas
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =15
+
+    Button15 As button:
+        Height: =54
+        OnSelect: =Navigate(navegacion)
+        Text: ="Atras"
+        Width: =302
+        X: =58
+        Y: =689
+        ZIndex: =7
+

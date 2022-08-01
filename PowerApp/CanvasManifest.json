@@ -84,7 +84,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "76c9150f-0b8c-41b9-a233-21561f3718b8",
-    "Id": "76c9150f-0b8c-41b9-a233-21561f3718b8",
+    "Id": "103844fc-c702-4e15-b860-1ecc6b741b9c",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "Name": "Jose Luis Soto App",
@@ -102,6 +102,12 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Confirmacion"
+    "navegacion",
+    "gal_productos",
+    "registro_productos",
+    "Confirmacion",
+    "gal_ordenes",
+    "registro_ordenes",
+    "confi_ordenes"
   ]
 }

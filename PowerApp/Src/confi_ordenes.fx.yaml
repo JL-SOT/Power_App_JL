@@ -1,0 +1,63 @@
+"confi_ordenes As screen.'tabletLayout_Success_ver3.0'":
+
+    iconCircle2 As circle.Circle:
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =(Parent.Height/2 - Self.Height/2) * .7
+        ZIndex: =1
+
+    iconCheck2 As icon.Check:
+        Height: =iconCircle2.Height
+        Icon: =Icon.Check
+        PaddingBottom: =Self.PaddingTop
+        PaddingLeft: =Self.PaddingTop
+        PaddingRight: =Self.PaddingTop
+        PaddingTop: =24
+        Width: =iconCircle2.Width
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =(Parent.Height/2 - Self.Height/2) * .7
+        ZIndex: =2
+
+    LblSuccessMsg2 As label:
+        Align: =Align.Center
+        AutoHeight: =true
+        Height: =iconCircle2.Height
+        Size: =20
+        Text: ="This was successfully completed"
+        Width: =Parent.Width * 0.75
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =iconCheck2.Y + iconCheck2.Height + 100
+        ZIndex: =3
+
+    Label2_5 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(102, 113, 166, 1)
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =125
+        Size: =40
+        Text: ="Registro de Ordenes"
+        Width: =1366
+        ZIndex: =4
+
+    Button12 As button:
+        Height: =72
+        OnSelect: =ResetForm(reg_ordenes);NewForm(reg_ordenes);Navigate(registro_ordenes)
+        Size: =20
+        Text: ="Nueva Orden"
+        Width: =304
+        X: =891
+        Y: =612
+        ZIndex: =5
+
+    Button13 As button:
+        Height: =72
+        OnSelect: =Navigate(gal_ordenes)
+        Size: =20
+        Text: |-
+            ="Volver al Registro
+            "
+        Width: =304
+        X: =170
+        Y: =612
+        ZIndex: =6
+
